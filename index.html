@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dae</title>
+</head>
+<body>
+    <!-- Линия шапки -->
+    <header class="line">
+        <div class="container">
+            <div class="header__line">
+                <p class="line__p">Free Shipping on US Orders Over $60</p>
+            </div>
+        </div>
+    </header>
+
+        <!-- Бургер меню -->
+        <ul id="slide-out" class="sidenav">
+            <li><a href="#"><i class="material-icons">add_shopping_cart</i>Shop</a></li>
+            <li><a href="#edit"><i class="material-icons">border_color</i>The Edit</a></li>
+            <li><a href="#story"><i class="material-icons">local_offer</i>Our Story</a></li>
+            <li><a href="#reviews"><i class="material-icons">business</i>Reviews</a></li>
+            <li><a href="#modal1" class="modal-trigger"><i class="material-icons">assignment_ind</i>Account</a></li>
+            <li><div class="divider"></div></li>
+        </ul>
+            <!-- Бургер меню -->
+            <header class="header__burger">
+                <div class="container">
+                    <div class="header__title">
+                        <img src="img/logo.png" alt="" class="burger__logo">
+                        <a class="burger sidenav-trigger" data-target="slide-out">
+                            <span class="burger__line"></span>
+                            <span class="burger__line"></span>
+                            <span class="burger__line"></span>
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+    <!-- Навигационное меню -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__flex">
+                <div class="header__menu">
+                    <ul>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#edit">The Edit</a></li>
+                        <li><a href="#story">Our Story</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="header__logo-box">
+                    <img class="header__logo" src="img/logo.png" alt="">
+                </div>
+                <div class="header__account">
+                    <a class="modal-trigger" href="#modal1">Account</a>
+                    <p><i class="fa fa-shopping-bag" aria-hidden="true"></i>0</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Окно регистрации -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Вход</h4>
+                <input type="text" placeholder="Email" class="modal__input-area modal__one-input">
+                <input type="text" placeholder="Пароль" class="modal__input-area">
+                <a href="#">Забыли пароль?</a>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-red modal-trigger btn-flat">Закрыть</a>
+                <a href="#!" class="modal-open waves-effect waves-red modal-trigger btn-flat">Войти</a>
+        </div>
+    </div>  
+
+    <!-- Шапка -->
+    <section class="head">
+        <div class="head__container">
+            <div class="head__shop">
+                <a class="head__btn" href="#">Shop now</a>
+            </div>
+            <div class="head__info">
+                <h5 class="head__h5">Ready To Get Drenched?</h5>
+                <h5 class="head__h4">Meet Monsoon Moisture Mask</h5>
+                <p class="head__p">Shop Now</p>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Pick a Pretty Bottle -->
+    <section class="sell" id="edit">
+        <div class="container">
+            <h3 class="sell__title">Pick a Pretty Bottle</h3>
+            <div class="sell__grid">
+                <div class="sell__item">
+                    <img class="sell__img" src="img/sell-1.svg" alt="">
+                    <h5 class="sell__h5">The Daedreamer Set</h5>
+                    <p class="sell__p">$49.00</p>
+                </div>
+                <div class="sell__item">
+                    <img class="sell__img" src="img/sell-2.svg" alt="">
+                    <h5 class="sell__h5">Shampoo</h5>
+                    <p class="sell__p">$24.00 to $64.00</p>
+                </div>
+                <div class="sell__item">
+                    <img class="sell__img" src="img/sell-3.svg" alt="">
+                    <h5 class="sell__h5">Conditioner</h5>
+                    <p class="sell__p">$24.00 to $64.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Sets -->
+    <section class="sets" id="story">
+        <div class="sets__container">
+            <div class="sets__box">
+                <p class="sets__p">Feel the warmth of the desert wherever you are.</p>
+                <a class="sets_link" href="#">Shop Sets</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Dae -->
+    <section class="meet" id="reviews">
+        <div class="meet__container">
+            <div class="meet__box">
+                <img class="meet__img" src="img/people.svg" alt="">
+                <div class="meet__info">
+                    <h5 class="meet__h5">Meet Dae</h5>
+                    <p class="meet__p">We’re a haircare line based in sunny Arizona. Our products are made up of the many things that make our home special, including the scent of orange blossoms in the air, colors of majestic sunsets and nourishing ingredients derived from desert botanicals. We believe haircare doesn’t have to be complicated and aimed to make a line that is simple and effective. We hope that dae plays a special role in your everyday hair routine from sunrise to sunset and allows you to feel the warmth of the desert wherever you are.</p>
+                    <a class="meet__link" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Follow Us @daehair -->
+    <section class="follow">
+        <div class="follow__container">
+            <h5 class="follow__h5">Follow Us @daehair</h5>
+            <div class="follow__grid">
+                <div class="follow__item">
+                    <img class="follow__img materialboxed" width="650" src="img/follow-1.svg" alt="">
+                </div>
+                <div class="follow__item">
+                    <img class="follow__img materialboxed" width="650" src="img/follow-2.svg" alt="">
+                </div>
+                <div class="follow__item">
+                    <img class="follow__img materialboxed" width="650" src="img/follow-3.svg" alt="">
+                </div>
+                <div class="follow__item">
+                    <img class="follow__img materialboxed" width="650" src="img/follow-4.svg" alt="">
+                </div>
+                <div class="follow__item">
+                    <img class="follow__img materialboxed" width="650" src="img/follow-5.svg" alt="">
+                </div>
+                <div class="follow__item">
+                    <img class="follow__img materialboxed" width="650" src="img/follow-6.svg" alt="">
+                </div>
+            </div>
+            <div class="follow__line"></div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__flex">
+                <div class="footer__item footer__one">
+                    <a class="footer__link" href="#">Sustainability</a>
+                    <a class="footer__link" href="#">Contact Us</a>
+                    <a class="footer__link" href="#">FAQ</a>
+                    <a class="footer__link" href="#">Careers</a>
+                </div>
+                <div class="footer__item footer__two">
+                    <a class="footer__link" href="#">Privacy Policy</a>
+                    <a class="footer__link" href="#">CA Privacy Rights</a>
+                    <a class="footer__link" href="#">Terms of Use</a>
+                    <a class="footer__link" href="#">Newsletter</a>
+                </div>
+                <div class="footer__item footer__three">
+                    <p class="footer__link">ONLY GOOD HAIR DAES AHEAD—AND 10% OFF YOUR FIRST ORDER</p>
+                    <p class="footer__link">Want to shop in person? Swing by our showroom.</p>
+                    <p class="footer__link">M-F, 10am-2pm 5051 E Indigo St, Suite 105, Mesa, AZ 85205</p>
+                </div>
+            </div>
+            <p class="footer__copy">© 2021 dae. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
